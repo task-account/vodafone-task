@@ -226,11 +226,7 @@ This approach would first apply QLoRA to create a memory-efficient quantized mod
 - **Resource Use**: Initial memory savings from quantization, followed by more expressive parameter updates where they matter most
 - **Generalization**: The two-stage approach could help the model learn different aspects of the task: first adapting to the general instruction format (QLoRA), then refining its responses with more parameter expressivity (modified GaLore)
 
-## 6. Final Report
-
-For a detailed analysis of the system performance, implementation details, and insights, please refer to the [final report](./REPORT.md). 
-
-## 8. Conclusion
+## 7. Conclusion
 
 This study demonstrates that PEFT techniques can substantially improve performance of the Gemma-3-1b-it model on instruction-following tasks with minimal computational resources. The modified GaLore approach (implemented as enhanced LoRA) outperformed QLoRA, suggesting that higher-rank adaptations targeting more parameters may be more effective than quantization-focused approaches, though both showed significant improvement over the baseline. 
 
