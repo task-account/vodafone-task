@@ -111,8 +111,3 @@ The RAG system significantly outperforms the baseline model that attempts to ans
 
 - **Baseline**: BLEU-4: ~0.1, ROUGE-L: ~0.1
 - **RAG**: BLEU-4: ~0.2, ROUGE-L: ~0.2
-
-
-## Final Report
-
-For a detailed analysis of the system performance, implementation details, and insights, please refer to the [final report](./REPORT.md). 
